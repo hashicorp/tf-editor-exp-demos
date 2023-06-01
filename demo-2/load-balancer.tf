@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 resource "aws_lb" "default" {
   load_balancer_type = "application"
   subnets            = aws_subnet.public[*].id

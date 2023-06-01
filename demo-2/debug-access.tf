@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Uncomment the following and add key_name to aws_instance
 # in case you need to SSH and debug things.
 
